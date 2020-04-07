@@ -22,11 +22,11 @@ Options:
 
 """
 from docopt import docopt
-from ntru.ntrucipher import NtruCipher
-from ntru.mathutils import random_poly
+from ntru.ntrumath.ntrucipher import NtruCipher
+from ntru.ntrumath.mathutils import random_poly
 from sympy.abc import x
 from sympy import ZZ, Poly
-from padding.padding import *
+from ntru.padding.padding import *
 import numpy as np
 import sys
 import logging
